@@ -4,7 +4,10 @@
 
 {% block content %}
   <h1>This is Page 2</h1>
-
-<p>Lorem ipsum</p>
-
+  <br>
+  <br>
+	{% for i in data %}
+		<p>{{ i }}</p>
+		<br>
+	{% endfor %}
 {% endblock %}
